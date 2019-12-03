@@ -1,7 +1,7 @@
 /*
  * Title: hashType.java
  * Date: 12/3/19
- * Desc: A simple demonstration of MD5 hashing.
+ * Desc: A simple demonstration of common hashing.
  * By: David Ayodele
  */
 
