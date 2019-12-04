@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d4b603d-ec29-444b-aed2-c080e62bca05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProtectedClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProtectedServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Protection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/authType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CipherClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CipherServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElGamal/ElGamalAlice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElGamal/ElGamalBob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PublicKey/PubkeyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PublicKey/PubkeyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/x509.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_project/hashType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_project/hashType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProtectedClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtectedClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProtectedServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtectedServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +59,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.hashType">
-    <configuration name="hashType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashType" />
+  <component name="RunManager" selected="Application.CipherClient">
+    <configuration name="CipherClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CipherClient" />
       <module name="crypto_project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="md5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="md5" />
+    <configuration name="CipherServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CipherServer" />
+      <module name="crypto_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElGamalAlice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElGamal.ElGamalAlice" />
+      <module name="crypto_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElGamal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElGamalBob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElGamal.ElGamalBob" />
+      <module name="crypto_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElGamal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtectedClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProtectedClient" />
       <module name="crypto_project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hashType" />
-        <item itemvalue="Application.md5" />
+        <item itemvalue="Application.CipherClient" />
+        <item itemvalue="Application.CipherServer" />
+        <item itemvalue="Application.ElGamalAlice" />
+        <item itemvalue="Application.ElGamalBob" />
+        <item itemvalue="Application.ProtectedClient" />
       </list>
     </recent_temporary>
   </component>
